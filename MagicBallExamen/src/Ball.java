@@ -9,7 +9,7 @@ public class Ball {
 	IState currentState;
 	
 	int timesRolled;
-	ArrayList<Integer> currentFortunes;
+	ArrayList<Integer> currentFortunes; //lijst van aantal gerolde fortunes
 	
 	private static Ball instance = new Ball(); //instance
 	
